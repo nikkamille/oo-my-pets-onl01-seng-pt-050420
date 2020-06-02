@@ -38,4 +38,8 @@ class Owner
     Cat.new(name, self)
   end
   
+  def buy_dog(dog)
+    Dog.new()
+  end
+  
 end

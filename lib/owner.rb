@@ -1,7 +1,7 @@
 class Owner
   
   attr_reader :species, :name
-  attr_accessor :cat 
+  # attr_accessor :cat 
   
   @@all = []
   
@@ -30,5 +30,7 @@ class Owner
   def cats 
     Cat.all.select { |cat| cat.owner == self }
   end
+  
+  def dogs 
   
 end
